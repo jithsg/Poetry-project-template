@@ -1,0 +1,26 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python environment folder (e.g., virtualenv)
+venv/
+env/
+*.env
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Logs and temporary files
+*.log
+*.swp
+*~
