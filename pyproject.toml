@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple-app"
+version = "0.1.0"
+description = ""
+authors = ["Jithish J <135303624+jithsg@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "simple_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+black = "^23.12.1"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
